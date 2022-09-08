@@ -1,7 +1,11 @@
+#include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - entry point
- * Return: 1
+ * main - prints entry point
+ * - Dora Korpar, 2015-10-19",
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
