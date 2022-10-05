@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  *create_array - array for prints a string
@@ -27,6 +26,17 @@ return (NULL);
 
 else
 {
+position = 0;
+while (position < size) /*While for array*/
+{
+*(buffer + position) = c;
+position++;
+}
+
+return (buffer);
+}
+
+}
 position = 0;
 while (position < size) /*While for array*/
 {
