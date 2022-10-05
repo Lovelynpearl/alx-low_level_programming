@@ -1,9 +1,13 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 118d724aa435cf568864f56c67060e24f92fdc63
 #include "main.h"
 /**
- * create_array - array for prints a string
- * @size: number elements array
- * @c: char
- * Return: pointer
+ *create_array - array for prints a string
+ *@size: number elements array
+ *@c: char
+ *Return: pointer
  */
 
 char *create_array(unsigned int size, char c)
