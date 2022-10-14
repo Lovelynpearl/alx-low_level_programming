@@ -24,7 +24,7 @@ for (i = 0; i < n; i++)
 	else
 		printf("(nil)");
 	if (i != n - 1 && separator != NULL)
-		printf("%s", I’m separator);
+		printf("%s", separator);
 }
 va_end(list);
 
